@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(fonts/NotoSans-Regular.ttf) format('truetype');
+} 
+
+body {
+    font-family: 'Noto Sans';
+    width: 100%;
+    background-attachment: fixed;
+}
+
+nav {
+    display: inline;
+    margin-right: 80px;
+    float: right;
+    margin-top: 50px;
+}
+
+img {
+    padding: 15px;
+}
+
+.barra-links {
+    padding: 5px;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+}
+
+.barra-links > a {
+    text-decoration: none;
+    color: #004aad;
+    text-transform: uppercase;
+    transition: 0.5s all ease-out;
+}
+
+.barra-links > a:hover {
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s all ease-out;
+}
+
+.login {
+    margin: 5px;
+    background-color: #004aad;
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s all ease-out;
+    cursor: pointer;
+}
+
+.login > a {
+    color: white;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: black;
+}
+
+.inicio {
+    border: 1px solid #004aad;
+    background-color: #004aad;
+    color: white;
+}
+
+.secao-inicio {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.secao-inicio > h1{
+    margin: 5px; 
+}
+
+.btn-saiba {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 580px;
+    margin-right: 580px;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-saiba > a {
+    text-decoration: none;
+    color: #004aad;
+}
+
+.btn-planos {
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 20px;
+    margin-bottom: 135px;
+    padding: 5px;  
+    cursor: pointer; 
+}
+
+.btn-planos > a {
+    text-decoration: none;
+    color: white;
+}
+
+.recursos {
+    text-align: center;
+    display: inline;
+}
+
+.icon {
+    display: inline;
+    color: #004aad;     
+    font-size: 90px;
+}
+
+.int-recurso{
+    padding: 40px;
+}
+
+.recurso1, .recurso2, .recurso3, .recurso4, .recurso5, .recurso6 {
+    columns: 2;
+    padding: 100px;
+}
+
+.texto-recurso {
+    margin-right: 15px;
+}
+
+.texto-recurso2 {
+    margin-left: 15px;
+}
+
+.title-planos {
+    text-align: center;
+    padding: 40px;
+}
+
+.planos {
+    text-align: center;
+}
+
+.plano1, .plano2, .plano3 {
+    text-align: center;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.title {
+    background-color: #004aad;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.title-planos {
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+}
+
+.benefes {
+    border: 1px solid #004aad;
+    text-align: center;
+    display: block;
+}
+
+.benefes > p {
+    padding: 10px;
+}
+
+.lista-recursos {
+    text-align: center;
+    display: block;
+}
+
+.lista-recursos > p {
+    padding: 5px;
+}
+
+.inscreva-se {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: #004aad;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inscreva-se > a {
+    color: white;
+    text-decoration: none;
+}
+
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;;
+}
+
+.contratar-plano {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s all ease-out;
+}
+
+.contratar-plano:hover {    
+    background-color: whitesmoke;
+    transition: 0.5s all ease-out;
+}
+
+.contratar-plano > a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s all ease-out;
+}
+
+.contratar-plano > a:hover {
+    color: black;
+    transition: 0.5s all ease-out;
+}
+
+.title-com {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.comunidade {
+    columns: 2;
+    padding: 30px;
+}
+
+.imagem {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.texto-com {
+    margin-right: 15px;
+}
+
+.texto-com > h3{
+    padding: 10px;
+}
+
+.texto-com > p{
+    padding: 10px;
+}
+
+.facebook {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    background-color: #004aad;
+    color: white;
+    text-decoration: underline;
+}
+
+.title-participe {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.participe {
+    padding: 10px;
+    text-align: center;
+    place-items: center;
+}
+
+.participe > p {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#nome_do_usuario, #email_do_usuario, #plano_do_usuario {
+    font-family: 'Noto Sans';
+    height: 30px;
+    width : 400px;
+    margin: 10px;
+}
+
+textarea {
+    font-size: 16px;
+    height: 200px;
+    width : 400px;
+}
+
+.btn-submit {
+    font-family: 'Noto Sans';
+    size: 30px;
+    background-color: #004aad;
+    color: whitesmoke;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #004aad;
+    text-align: center;
+}
+
+.img-rodape > img {
+    margin-top: 25px;
+}
+
+.lista-rodape {
+    display: block;
+    color: white;
+    text-decoration: underline;
+}
+
+.icon2 {
+    display: inline;
+    color: white;     
+    font-size: 45px;
+}
+
+.icon2 > a {
+    color: white;     
+}

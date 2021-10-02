@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(fonts/NotoSans-Regular.ttf) format('truetype');
+} 
+
+body {
+    font-family: 'Noto Sans';
+    background-image: linear-gradient(to bottom, #F8F7FF, #B8B8FF, #17BEBB, #004aad);
+    background-attachment: fixed;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    min-width: 240px;
+    max-width: 2400px;
+}
+
+.title-login {
+    padding: 5px;
+}
+
+.login {
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 3%;
+    text-align: center;
+    background-color: white;
+}
+
+a {
+    margin: 5px;
+}
+
+.btn-entrar > button {
+    margin: 5px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+#email_do_usuario, #senha_do_usuario, #nome_do_usuario {
+    font-family: 'Noto Sans';
+    height: 25px;
+    width : 250px;
+    margin: 10px;
+}
